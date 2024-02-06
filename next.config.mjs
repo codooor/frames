@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  env: {
+    metadataBase: 'https://frames-alpha.vercel.app/',
+  },
   async redirects() {
     return [
       {
