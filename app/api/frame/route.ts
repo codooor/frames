@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-
+//
 async function getResponse(req: NextRequest): Promise<NextResponse> {
   const searchParams = req.nextUrl.searchParams;
   const id: any = searchParams.get('id');
